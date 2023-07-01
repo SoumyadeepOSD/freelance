@@ -10,9 +10,9 @@ const App = () => {
        <Header/>
        <Hero/>
        <Main/>
-       {/* <Lower/>
-       <Support/>
-       <Footer/>  */}
+      <Lower/>
+       {/* <Support/> */}
+       {/* <Footer/> */}
        {/* <BottomCard/> */}
     </div>
   );

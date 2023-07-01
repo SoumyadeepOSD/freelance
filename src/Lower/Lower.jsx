@@ -39,14 +39,14 @@ const TestiData =
 
 const Lower = () => {
     return (
-        <div className="Lower-Container space">
-            <h1 className='medium-line font-bold'>Why choose Dreambill</h1>
-            <p className='hero-desc  text-center compress'>Our guaranteed top-tier service and industry-leading worldwide coverage<br />provide peace of mind for any global team.</p>
-            <div className='Lower-Container-section'>
+        <div className=" flex flex-col items-center justify-center bg-purple-50 mx-5 xl:mx-32 rounded-2xl">
+            <h1 className=' text-center text-4xl xl:text-6xl text-teal-800 font-bold mt-5'>Why choose Dreambill</h1>
+            <p className='text-center mt-10'>Our guaranteed top-tier service and industry-leading worldwide coverage<br />provide peace of mind for any global team.</p>
+            <div className='flex flex-col xl:grid grid-cols-3 grid-rows-2'>
                 {
                     TestiData.map((e, i) => {
                         return (
-                            <div key={i}>
+                            <div key={i} className=' my-10 xl:mt-10'>
                                 <Numbers number={e.number} testi={e.testi} />
                             </div>
                         )
