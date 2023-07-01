@@ -9,10 +9,10 @@ const App = () => {
     <div className="Container">
        <Header/>
        <Hero/>
-       {/* <Main/>
-       <Lower/>
+       <Main/>
+       {/* <Lower/>
        <Support/>
-       <Footer/> */}
+       <Footer/>  */}
        {/* <BottomCard/> */}
     </div>
   );

@@ -24,20 +24,25 @@ const CardText =
 
 const Main = () => {
     return (
-        <div className='Main-Container space'>
-            <h1 className='medium-line font-bold'>Smart HR to outsmart the</h1>
-            <h1 className='medium-line font-bold'>changing world</h1>
-            <p className='hero-desc compress'>The world has changed, and it's going to keep changing. Dreambill helps your teams to adapt,
-                evolve, and scale by working more effectively. Spend less time on mundane tasks and focus more
+        <div className=' mt-96 xl:my-48 flex flex-col items-center justify-around'>
+
+
+
+            <h1 className='mt-48 text-teal-800 text-center text-4xl xl:text-6xl font-bold'>Smart HR to outsmart the<br /> changing world</h1>
+            <p className=' text-center mt-5 mx-4 xl:mx-96 mb-20'>The world has changed, and it's going to keep changing. Dreambill helps your teams to adapt,
+                <br />evolve, and scale by working more effectively. Spend less time on mundane tasks and focus more<br />
                 on strategy. Turn data into smarter decisions and create experiences your employees will love.</p>
 
 
-            <section className=' grid grid-cols-2 mt-20 w-full justify-between items-start'>
-                <div className='flex flex-col h-4/5'>
+
+
+
+            <section className=' flex flex-col xl:flex-row'>
+                <div className='flex flex-col h-4/5 mb-20'>
                     {
                         CardText.map((e, i) => {
                             return (
-                                <div key={i} className={e.id === 2 ? 'shadow' : 'white-card'}>
+                                <div key={i} className={e.id === 2 ? 'shadow-lg my-5 py-10' :''}>
                                     <CardItem title={e.title} desc={e.desc} />
                                 </div>
                             );
@@ -45,33 +50,38 @@ const Main = () => {
                     }
                 </div>
 
-                <div>
-                    <img src="src/assets/hr-image.png" alt=""/>
+                <div className=' mx-5 xl:mx-0'>
+                    <img src="src/assets/hr-image.png" alt="" />
                 </div>
             </section>
 
 
+
+
             {/* middle */}
 
-            <section className='bg-teal-50 w-full flex flex-row  flex-wrap items-center justify-between'>
-                <img src="src/assets/more_work.png" alt="" />
+            <section className='flex mt-10 flex-col xl:flex-row w-full items-center justify-center'>
+                <img src="src/assets/more_work.png" alt="" className='my-10'/>
                 <img src="src/assets/middle.png" alt="" />
             </section>
-            <div className='middle-bottom'>
+            <div className='middle-bottom bg-teal-100 py-5 w-11/12 text-center '>
                 <p className='green-text'>Get Started</p>
             </div>
 
-            {/* Lower Middle */}
-            <section className='lower-middle'>
-                <h1 className='medium-line font-bold'>Everything you need to create a high</h1>
-                <h1 className='medium-line font-bold'>performance culture</h1>
 
+
+
+            {/* Lower Middle */}
+            <section className=' flex flex-col my-20 xl:my-40'>
+                <h1 className=' text-center font-bold text-4xl xl:text-7xl text-teal-800'>Everything you need to create a high<br/>performance culture</h1>
                 <div className='lower-middle-image'>
                     <img src="src/assets/div.large-box-f.png" alt="" />
                     <img src="src/assets/sec.png" alt="" />
                     <img src="src/assets/div.large-box-t.png" alt="" />
                 </div>
             </section>
+
+
         </div>
     );
 }
@@ -84,8 +94,8 @@ export default Main;
 const CardItem = ({ title, desc }) => {
     return (
         <div>
-            <h2>{title}</h2>
-            <p className='desc'>{desc}</p>
+            <h2 className='font-bold text-center xl:text-start'>{title}</h2>
+            <p className='desc text-center xl:text-start px-10'>{desc}</p>
         </div>
     );
 }
