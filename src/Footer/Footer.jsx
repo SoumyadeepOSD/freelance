@@ -14,7 +14,7 @@ const Footer = () => {
             {/* CEO Section */}
             <section className='flex gap-x-72 flex-col xl:flex-row mt-20'>
                 <div className='flex flex-col items-center justify-center xl:justify-start xl:items-start'>
-                    <img src="public/static/images/CEO2.png" alt="" />
+                    <img src="./static/images/CEO2.png" alt="" />
                     <p className=' text-center xl:text-start uppercase my-3 font-semibold text-teal-800'>Sarah N., CEO of XYZ Company</p>
                     <p className=' text-center xl:text-start '>Efficient, reliable, and hassle-free. This payroll platform<br/> has revolutionized our payroll management. Highly<br/> recommended</p>
                 </div>
