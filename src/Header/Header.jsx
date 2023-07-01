@@ -2,7 +2,7 @@ import '../../src/Header/Header.css';
 import CustomButton from '../Button';
 const Header = () => {
     return(
-        <div className=' rounded-full mt-8 flex items-center justify-around flex-col bg-white px-8 lg:flex-row lg:mt-2 shadow-lg lg:mx-24'>
+        <div className='mx-3 rounded-full mt-8 flex items-center justify-around flex-col bg-white px-8 lg:flex-row lg:mt-2 shadow-lg lg:mx-24'>
             {/* logo */}
             <div className=' pr-16'>
                 <img src="src/assets/logo.png" alt="" className='h-10 w-30'/>
