@@ -1,0 +1,33 @@
+.Container{
+  background: white;
+}
+
+.space{
+  margin-inline: 10rem;
+}
+
+.compress{
+  width: 58%;
+  text-justify: newspaper;
+}
+
+.btn{
+  background: #085C60;
+  width: 12rem;
+  text-align: center;
+  border-radius: 8px;
+  padding-block: 1rem;
+  color: white;
+  font-size: 20px;
+}
+
+.t-btn{
+  background: white;
+  width: 12rem;
+  text-align: center;
+  border-radius: 8px;
+  padding-block: 1rem;
+  columns:#085C60;
+  font-size: 20px;
+  border: 1px solid #085C60;;
+}

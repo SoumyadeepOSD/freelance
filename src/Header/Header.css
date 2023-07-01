@@ -1,0 +1,24 @@
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.green-text, 
+ul li{
+    color: #085C60;
+    font-size: larger;
+    font-weight: bolder;
+    list-style: none;
+}
+

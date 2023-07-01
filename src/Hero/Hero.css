@@ -1,0 +1,89 @@
+.Hero-Container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+.bold-line{
+    color: #085C60;
+    font-size: 64px;
+}
+
+.grid-vector{
+    position: absolute;
+    left: 20rem;
+}
+
+.hero-desc{
+    color: #556F71;
+    margin-top: 1rem;
+}
+
+.right-hero{
+    background:#085C60;
+    max-width: 70rem;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.large-hero-img{
+    min-height: 16rem;
+}
+
+.green-lower-section{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left-hero section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.p1,
+.p2,
+.p3,
+.p4{
+    position: absolute;
+}
+
+.p2{
+    left: -3rem;
+    top: 100px;
+}
+
+.p1{
+    top: -2rem;
+    right: -3rem;
+}
+
+.p3{
+    bottom: 7rem;
+    right: -3rem;
+}
+
+.p4{
+    left: 60px;
+    bottom: -2rem;
+}
+
+
+@media (max-width: 1250px) {
+    .Hero-Container{
+        flex-wrap: wrap-reverse;
+    }
+  }

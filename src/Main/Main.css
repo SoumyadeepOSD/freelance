@@ -1,0 +1,77 @@
+.Main-Container{
+    margin-top: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.medium-line{
+    color: #085C60;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.hr-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.first-hr-section{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.white-card{
+    background: white;
+    padding: 1rem;
+}
+
+.shadow{
+    box-shadow: 1px 1px 30px rgb(208, 206, 206);
+    padding: 1rem;
+}
+
+
+.middle{
+    background: #EEFCF9;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.middle-bottom{
+    background: #35acb742;
+    width: 100%;
+    text-align: center;
+    padding-block: 2rem;
+}
+
+.lower-middle{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lower-middle-image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+
