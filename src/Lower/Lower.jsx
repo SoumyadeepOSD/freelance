@@ -70,11 +70,11 @@ const Support = () => {
             <h1 className='text-center mt-5 text-2xl xl:text-4xl font-bold xl:text-start'>Supporting <span className=' text-teal-800'>9,000 growing companies</span> to<br/> manage their HR.</h1>
 
             <div className=' flex flex-col xl:flex-row items-center justify-around my-10 w-9/12'>
-                <img src="src/assets/KHM.png" alt="" className='my-10 xl:my-0' />
-                <img src="src/assets/DSA.png" alt="" className='my-10 xl:my-0'/>
-                <img src="src/assets/Pal.png" alt=""className='my-10 xl:my-0' />
-                <img src="src/assets/Para.png" alt="" className='my-10 xl:my-0'/>
-                <img src="src/assets/VD.png" alt="" className='my-10 xl:my-0'/>
+                <img src="public/static/images/KHM.png" alt="" className='my-10 xl:my-0' />
+                <img src="public/static/images/DSA.png" alt="" className='my-10 xl:my-0'/>
+                <img src="public/static/images/Pal.png" alt=""className='my-10 xl:my-0' />
+                <img src="public/static/images/Para.png" alt="" className='my-10 xl:my-0'/>
+                <img src="public/static/images/VD.png" alt="" className='my-10 xl:my-0'/>
             </div>
             <span className=' bg-gray-400 h-0.5 w-2/3 xl:w-full'></span>
         </div>

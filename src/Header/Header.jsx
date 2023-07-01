@@ -5,7 +5,7 @@ const Header = () => {
         <div className='mx-3 rounded-full mt-8 flex items-center justify-around flex-col bg-white px-8 lg:flex-row lg:mt-2 shadow-lg lg:mx-24'>
             {/* logo */}
             <div className=' pr-16'>
-                <img src="src/assets/logo.png" alt="" className='h-10 w-30'/>
+                <img src="public/static/images/logo.png" alt="" className='h-10 w-30'/>
             </div>
             {/* logo */}
 
