@@ -36,15 +36,45 @@ export { Footer, BottomCard };
 
 const BottomCard = () => {
     return (
-        <div className='bottom-card space'>
-            <h1 className='medium-line' style={{ color: 'white' }}>
+        <div className='bg-teal-800 mt-40 xl:mx-24 rounded-2xl flex flex-col items-center justify-center py-20 gap-y-16' >
+            <h1 className=' text-center text-white font-bold text-4xl xl:text-6xl'>
                 Get started with Dreambill
             </h1>
-            <section className='button-section'>
-                <CustomButton label='Create an account' type="green" />
-                <CustomButton label='Request a demo' type="white" />
+            <section className='flex flex-row items-center justify-center gap-x-5'>
+                <CustomButton label='Create an account' type="white" />
+                <CustomButton label='Request a demo' type="green" />
             </section>
         </div>
     );
 }
 
+const DownPortion = () => {
+    return(
+        <div className=' flex flex-col items-center justify-center gap-10 mx-24'>
+        <section className='flex flex-col gap-y-10 xl:flex-row justify-between mt-10 w-full'>
+                <img src="src/assets/logo.png" alt="" />
+                <img src="src/assets/Frame.png" alt="" />
+        
+        </section>
+        <div className=' w-full h-1 bg-slate-400'></div>
+        </div>
+    );
+}
+
+
+
+const PrivacySection = () => {
+    return(
+        <div className=' flex flex-wrap-reverse flex-col xl:flex-row items-center  justify-center xl:justify-between gap-10 mx-24 my-8'>
+        <section className=' order-2 xl:order-1'>
+                <p>© Copyright 2023. All Rights Reserved.</p>
+        </section>
+        <section className='order-1 flex flex-col xl:flex-row gap-x-5' >
+            <p>About us</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </section>
+        </div> 
+    );
+}
+export {PrivacySection, DownPortion};

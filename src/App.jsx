@@ -1,6 +1,6 @@
 import Header from "../src/Header/Header.jsx";
 import Hero from "../src/Hero/Hero.jsx";
-import {Footer, BottomCard} from "./Footer/Footer.jsx";
+import {DownPortion, PrivacySection, Footer, BottomCard} from "./Footer/Footer.jsx";
 import {Lower, Support} from "./Lower/Lower.jsx";
 import Main from "./Main/Main.jsx";
 
@@ -13,7 +13,9 @@ const App = () => {
       <Lower/>
        <Support/>
        <Footer/>
-       {/* <BottomCard/> */}
+       <BottomCard/>
+       <DownPortion/>
+       <PrivacySection/>
     </div>
   );
 }
