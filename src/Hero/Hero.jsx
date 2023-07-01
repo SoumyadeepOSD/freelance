@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import '../../src/Hero/Hero.css';
-import { CustomButton, TransCustomButton } from '../Button';
+import CustomButton from '../Button';
 const Hero = () => {
     return (
         <div className='flex flex-col xl:flex-row relative mt-20 justify-between space'>
@@ -11,8 +11,8 @@ const Hero = () => {
                 <p className='hero-desc'>Empower your business with our comprehensive payroll platform tailored for the African market. Streamline your Payroll Processes, Ensure Compliance, and Focus on Growth</p>
 
                 <section className='flex min-w-max sm:flex-col xl:flex-row gap-x-5 justify-between'>
-                    <CustomButton label='Get Started'/>
-                    <TransCustomButton label='Request a demo'/>
+                    <CustomButton label='Get Started' type="green"/>
+                    <CustomButton label='Request a demo' type="white"/>
                 </section>
                 <p className='hero-desc'>Setup in 5 minutes.</p>
             </div>

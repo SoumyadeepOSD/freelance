@@ -1,6 +1,6 @@
 import '../../src/Footer/Footer.css';
 import PropTypes from 'prop-types';
-import { CustomButton, TransCustomButton } from '../Button';
+import CustomButton from '../Button';
 
 
 
@@ -65,8 +65,8 @@ const BottomCard = () => {
                 Get started with Dreambill
             </h1>
             <section className='button-section'>
-                <CustomButton label='Create an account'/>
-                <TransCustomButton label='Request a demo'/>
+                <CustomButton label='Create an account' type="green"/>
+                <CustomButton label='Request a demo' type="white"/>
             </section>
         </div>
     );
