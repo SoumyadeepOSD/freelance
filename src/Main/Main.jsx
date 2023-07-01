@@ -51,7 +51,7 @@ const Main = () => {
                 </div>
 
                 <div className=' mx-5 xl:mx-0'>
-                    <img src="public/static/images/hr-image.png" alt="" />
+                    <img src="./static/images/hr-image.png" alt="" />
                 </div>
             </section>
 
@@ -61,8 +61,8 @@ const Main = () => {
             {/* middle */}
 
             <section className='flex mt-10 flex-col xl:flex-row w-full items-center justify-center'>
-                <img src="public/static/images/more_work.png" alt="" className='my-10'/>
-                <img src="public/static/images/middle.png" alt="" />
+                <img src="./static/images/more_work.png" alt="" className='my-10'/>
+                <img src="./static/images/middle.png" alt="" />
             </section>
             <div className='middle-bottom bg-teal-100 py-5 w-11/12 text-center '>
                 <p className='green-text'>Get Started</p>
@@ -75,9 +75,9 @@ const Main = () => {
             <section className=' flex flex-col my-20 xl:my-40'>
                 <h1 className=' text-center font-bold text-4xl xl:text-7xl text-teal-800'>Everything you need to create a high<br/>performance culture</h1>
                 <div className='lower-middle-image'>
-                    <img src="public/static/images/div.large-box-f.png" alt="" />
-                    <img src="public/static/images/sec.png" alt="" />
-                    <img src="public/static/images/div.large-box-t.png" alt="" />
+                    <img src="./static/images/div.large-box-f.png" alt="" />
+                    <img src="./static/images/sec.png" alt="" />
+                    <img src="./static/images/div.large-box-t.png" alt="" />
                 </div>
             </section>
 

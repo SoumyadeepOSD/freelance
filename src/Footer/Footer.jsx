@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col items-center mt-20 justify-center xl:justify-start xl:items-start xl:mt-0'>
-                    <img src="public/static/images/CEO.png" alt="" />
+                    <img src="./static/images/CEO.png" alt="" />
                     <p className=' text-center xl:text-start uppercase my-3 font-semibold text-teal-800'>Sarah N., CEO of XYZ Company</p>
                     <p className=' text-center xl:text-start '>Using this payroll platform has been a game-changer for<br/> our company. It's efficient, user-friendly, and has<br/> streamlined our payroll process.</p>
                 </div>
@@ -53,8 +53,8 @@ const DownPortion = () => {
     return(
         <div className=' flex flex-col items-center justify-center gap-10 mx-24'>
         <section className='flex flex-col gap-y-10 xl:flex-row justify-between mt-10 w-full'>
-                <img src="public/static/images/logo.png" alt="" />
-                <img src="public/static/images/Frame.png" alt="" />
+                <img src="./static/images/logo.png" alt="" />
+                <img src="./static/images/Frame.png" alt="" />
         
         </section>
         <div className=' w-full h-1 bg-slate-400'></div>
