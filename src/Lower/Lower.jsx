@@ -76,7 +76,7 @@ const Support = () => {
                 <img src="src/assets/Para.png" alt="" className='my-10 xl:my-0'/>
                 <img src="src/assets/VD.png" alt="" className='my-10 xl:my-0'/>
             </div>
-            <span className='line'></span>
+            <span className=' bg-gray-400 h-0.5 w-2/3 xl:w-full'></span>
         </div>
     );
 }

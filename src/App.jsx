@@ -12,7 +12,7 @@ const App = () => {
        <Main/>
       <Lower/>
        <Support/>
-       {/* <Footer/> */}
+       <Footer/>
        {/* <BottomCard/> */}
     </div>
   );
