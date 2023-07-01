@@ -11,7 +11,7 @@ const App = () => {
        <Hero/>
        <Main/>
       <Lower/>
-       {/* <Support/> */}
+       <Support/>
        {/* <Footer/> */}
        {/* <BottomCard/> */}
     </div>

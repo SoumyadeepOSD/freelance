@@ -65,16 +65,16 @@ export { Lower, Support };
 
 const Support = () => {
     return (
-        <div className='Support-Container space'>
-            <p style={{color:'#657085'}}>MEET OUR CUSTOMERS</p>
-            <h1 style={{fontSize:'40px'}}>Supporting <span style={{color:'#085C60', marginTop:'20px',fontSize:'40px'}}>9,000 growing companies</span> to<br/> manage their HR.</h1>
+        <div className=' flex flex-col items-center xl:items-start justify-around mx-0 xl:mx-32 my-20'>
+            <p >MEET OUR CUSTOMERS</p>
+            <h1 className='text-center mt-5 text-2xl xl:text-4xl font-bold xl:text-start'>Supporting <span className=' text-teal-800'>9,000 growing companies</span> to<br/> manage their HR.</h1>
 
-            <div className='brands'>
-                <img src="src/assets/KHM.png" alt="" />
-                <img src="src/assets/DSA.png" alt="" />
-                <img src="src/assets/Pal.png" alt="" />
-                <img src="src/assets/Para.png" alt="" />
-                <img src="src/assets/VD.png" alt="" />
+            <div className=' flex flex-col xl:flex-row items-center justify-around my-10 w-9/12'>
+                <img src="src/assets/KHM.png" alt="" className='my-10 xl:my-0' />
+                <img src="src/assets/DSA.png" alt="" className='my-10 xl:my-0'/>
+                <img src="src/assets/Pal.png" alt=""className='my-10 xl:my-0' />
+                <img src="src/assets/Para.png" alt="" className='my-10 xl:my-0'/>
+                <img src="src/assets/VD.png" alt="" className='my-10 xl:my-0'/>
             </div>
             <span className='line'></span>
         </div>
